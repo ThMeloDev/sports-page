@@ -8,7 +8,8 @@
 }
 
 :root {
-  --cinza: #4f5964;
+  --gray: #4f5964;
+  --light-gray: #838a93;
 }
 
 body {
@@ -31,6 +32,6 @@ h2 {
 
 p {
   font-size: 18px;
-  max-width: 80vw;
+  max-width: 70vw;
   color: #4f5964;
 }

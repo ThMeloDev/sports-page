@@ -1,0 +1,94 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10rem 0 6.25rem;
+}
+
+.container-carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#image-carousel {
+  max-width: 60vw;
+  width: 400px;
+  height: 200px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/musc_0.png);
+}
+
+.carousel img {
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+#arrow-left:hover {
+  content: url(../assets/arrow-left.png);
+}
+
+#arrow-right:hover {
+  content: url(../assets/arrow-right.png);
+}
+
+.container-index {
+  display: flex;
+  gap: 1rem;
+}
+
+.index {
+  width: 2rem;
+  height: 1rem;
+  border-radius: 1rem;
+  background-color: var(--light-gray);
+}
+
+.index-0 {
+  background-color: var(--gray);
+}
+
+.image-text {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.image-musc {
+  max-width: 70vw;
+  width: 400px;
+  height: 300px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-musc-1 {
+  background-image: url("../assets/musculacao-1.png");
+}
+
+.image-musc-2 {
+  background-image: url("../assets/musculacao-2.png");
+}
+
+.text {
+  width: 32rem;
+}

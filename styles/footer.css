@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--cinza);
+  background-color: var(--gray);
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,0 +1,38 @@
+.run {
+  max-width: 80vw;
+  margin-bottom: 1.25rem;
+}
+
+.run:hover {
+  content: url(../assets/corrida_2.png);
+}
+
+.text {
+  width: 32rem;
+}
+
+.image-text {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.image-run {
+  max-width: 70vw;
+  width: 400px;
+  height: 300px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-run-1 {
+  background-image: url("../assets/run_1.png");
+}
+
+.image-run-2 {
+  background-image: url("../assets/run_2.png");
+}

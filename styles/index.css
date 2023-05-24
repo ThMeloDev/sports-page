@@ -1,0 +1,115 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 1.5625rem;
+}
+
+h2 {
+  margin-bottom: 0.625rem;
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
+  max-width: 80vw;
+}
+
+.div-ball {
+  position: relative;
+  width: 100vw;
+  height: 20rem;
+}
+
+.div-ball div {
+  width: 12.5rem;
+  height: 12.5rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/kick-ball.png");
+  position: absolute;
+  top: 20%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  animation: mover 10s ease-in-out infinite;
+}
+
+@keyframes mover {
+  0% {
+    left: 120%;
+    transform: scale(1);
+  }
+
+  50% {
+    left: -20%;
+    transform: scale(1);
+    background-image: url("../assets/kick-ball.png");
+  }
+  51% {
+    transform: scale(-1);
+    background-image: url("../assets/basketball.png");
+    transform: rotate(0deg);
+  }
+
+  99% {
+    transform: scale(-1);
+  }
+  100% {
+    left: 120%;
+    transform: rotate(360deg);
+    background-image: url("../assets/basketball.png");
+  }
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6rem;
+}
+
+.container-benefits {
+  max-width: 70vw;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 3rem 0 3rem;
+}
+
+.container-benefits p {
+  max-width: 30rem;
+}
+
+.image-saude,
+.image-desenvolvimento,
+.image-educacao {
+  max-width: 40vw;
+  width: 250px;
+  height: 250px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-saude {
+  background-image: url("../assets/saude.png");
+}
+
+.image-desenvolvimento {
+  background-image: url("../assets/desenvolvimento.png");
+}
+
+.image-educacao {
+  background-image: url("../assets/educacao.png");
+}

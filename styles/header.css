@@ -30,3 +30,10 @@ ul a {
 ul a:hover {
   color: #fad138;
 }
+
+@media (max-width: 600px) {
+  header {
+    justify-content: center;
+    padding-bottom: 1.25rem;
+  }
+}

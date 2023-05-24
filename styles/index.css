@@ -85,9 +85,9 @@ p {
   max-width: 30rem;
 }
 
-.image-saude,
-.image-desenvolvimento,
-.image-educacao {
+.image-volei,
+.image-musculacao,
+.image-corrida {
   max-width: 40vw;
   width: 250px;
   height: 250px;
@@ -96,16 +96,16 @@ p {
   background-repeat: no-repeat;
 }
 
-.image-saude {
-  background-image: url("../assets/saude.png");
+.image-volei {
+  background-image: url("../assets/volei_home.png");
 }
 
-.image-desenvolvimento {
-  background-image: url("../assets/desenvolvimento.png");
+.image-musculacao {
+  background-image: url("../assets/musculacao_home.png");
 }
 
-.image-educacao {
-  background-image: url("../assets/educacao.png");
+.image-corrida {
+  background-image: url("../assets/corrida_home.png");
 }
 
 @media (max-width: 800px) {

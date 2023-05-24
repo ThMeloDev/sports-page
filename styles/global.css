@@ -15,3 +15,22 @@ body {
   width: 100vw;
   overflow-x: hidden;
 }
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 1.5625rem;
+  color: #4f5964;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom: 0.625rem;
+  font-size: 22px;
+  color: #4f5964;
+}
+
+p {
+  font-size: 18px;
+  max-width: 80vw;
+  color: #4f5964;
+}

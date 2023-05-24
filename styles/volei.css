@@ -1,0 +1,64 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10rem 0 6.25rem;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+p {
+  max-width: 60vw;
+  margin: 4rem 0 4rem;
+}
+
+.medals {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  position: absolute;
+  top: 10rem;
+  left: 2rem;
+}
+
+.medals img {
+  width: 4rem;
+}
+
+.player-volley {
+  position: absolute;
+  top: 10rem;
+  right: 2rem;
+}
+
+.gif {
+  width: 32rem;
+  height: 18rem;
+  max-width: 80vw;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gif1 {
+  background-image: url("../assets/volei_1.gif");
+}
+
+.gif2 {
+  background-image: url("../assets/volei_2.gif");
+  margin-bottom: 4rem;
+}
+
+main ul {
+  display: flex;
+  flex-direction: column;
+}
+
+main ul p {
+  margin: 0;
+  margin-top: 2rem;
+}

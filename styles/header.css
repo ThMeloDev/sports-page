@@ -6,6 +6,9 @@ header {
   background-color: var(--cinza);
   padding: 0 2.5rem 0 0.25rem;
   margin-bottom: 3rem;
+  position: fixed;
+  width: 100vw;
+  z-index: 9999;
 }
 
 ul {

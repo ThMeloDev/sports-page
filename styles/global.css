@@ -14,7 +14,19 @@
 
 body {
   width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  padding: 10rem 0 6.25rem;
 }
 
 h1 {

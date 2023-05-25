@@ -83,3 +83,17 @@
 .text {
   width: 32rem;
 }
+
+@media (max-width: 800px) {
+  .image-text1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .image-musc-1 {
+    grid-row: 2;
+  }
+}

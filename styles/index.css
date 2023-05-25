@@ -90,7 +90,7 @@ p {
 .image-volei,
 .image-musculacao,
 .image-corrida {
-  max-width: 40vw;
+  max-width: 80vw;
   width: 250px;
   height: 250px;
   background-size: contain;
@@ -113,5 +113,19 @@ p {
 @media (max-width: 800px) {
   .div-ball div {
     animation: mover 7s ease-in-out infinite;
+  }
+
+  .benefits1,
+  .benefits3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .a-image-volei,
+  .a-image-corrida {
+    grid-row: 2;
   }
 }

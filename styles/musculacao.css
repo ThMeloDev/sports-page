@@ -84,7 +84,7 @@
   width: 32rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .image-text1 {
     display: grid;
     grid-template-columns: 1fr;
